@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /d/voting-blockchain status)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git -C /d/voting-blockchain add -A --dry-run)",
+      "Bash(git -C /d/voting-blockchain check-ignore -v backend/.env)",
+      "Bash(git -C /d/voting-blockchain check-ignore -v backend/node_modules)",
+      "Bash(git -C /d/voting-blockchain config user.name \"sahil\")",
+      "Bash(git -C /d/voting-blockchain config user.email \"sahildhola123@gmail.com\")",
+      "Bash(git -C /d/voting-blockchain add -A)",
+      "Bash(git -C /d/voting-blockchain commit -m \"Initial commit: voting blockchain system \\(backend, frontend, smart contracts\\)\")"
+    ]
+  }
+}

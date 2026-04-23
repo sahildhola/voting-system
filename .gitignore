@@ -1,0 +1,11 @@
+node_modules/
+.env
+*.env.local
+dist/
+build/
+.cache/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/deployment.json
+coverage/
+.DS_Store
